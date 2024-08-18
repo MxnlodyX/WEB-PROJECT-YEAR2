@@ -1,0 +1,36 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUMA HOMEPAGE</title>
+</head>
+<body>
+    <div id="FrontHeader"></div>
+
+
+<main>
+    <h1>THIS IS HOME PAGE</h1>
+</main>
+
+
+
+
+
+    <div id="FrontFooter"></div>
+
+    <script>
+        // Load header
+        fetch('partials/header.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('FrontHeader').innerHTML = data;
+          });
+    
+        fetch('partials/footer.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('FrontFooter').innerHTML = data;
+        });
+      </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PUMA | ADDPRODUCT</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+
+</head>
+<body>
+    <div class="container">
+        <!-- จะโหลด sidebar มาที่นี่ -->
+        <div id="sidebarContainer"></div>
+        <!-- form -->
+        <div class="form-container">
+            <div class="form-title">
+                <span>Product Management</span>
+            </div>
+            <div class="form-box">
+                <div class="form-name">
+                    <h3>Add Product</h3>
+                    <hr>
+                </div>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="">Product Name</label>
+                        <input type="text" placeholder="Enter Product Name">
+                    </div>
+                    <div class="form-element">
+                        <label for="">Product Type</label>
+                        <select name="tagging">
+                            <option selected="true" disabled="disabled">Choose Tagging</option>
+                            <option value="Option A">Option A</option>
+                            <option value="Option B">Option B</option>
+                            <option value="Option C">Option C</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="">Product Price</label>
+                        <input type="text" placeholder="Enter Product Price">
+                    </div>
+                    <div class="form-element">
+                        <label for="">Collection</label>
+                        <select name="tagging">
+                            <option selected="true" disabled="disabled">Choose Tagging</option>
+                            <option value="Option A">Option A</option>
+                            <option value="Option B">Option B</option>
+                            <option value="Option C">Option C</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="">For</label>
+                        <div class="radio-name">
+                            <h5>Male</h5>
+                            <h5>Female</h5>
+                            <h5>Kids</h5>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" name="section">
+                            <input type="radio" name="section">
+                            <input type="radio" name="section"><br>
+                        </div>
+                    </div>
+                    <div class="form-element">
+                        <label for="">Description</label>
+                        <textarea cols="30" rows="5" id=""></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="">Product Image</label>
+                        <input style="border-radius: 0px;" type="file">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
+  integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
+  crossorigin="anonymous"
+  ></script>
+  <script src="JS/script.js"></script>
+</body>
+</html>
